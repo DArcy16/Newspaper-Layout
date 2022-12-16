@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=PT+Serif:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  width: screen;
+  color: #676767;
+  font-family: "Josefin Sans", serif;
+  font-size: 18px;
+  margin: 30px 40px;
+  background-color: #ccc;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+    text-align : center;
+    border : 1px solid black;
+    padding : 12px 0;
+    border-bottom : none;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.nav-items {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #333;
+  padding: 12px 0;
+}
+
+.top,
+.bottom {
+  height: 45vh;
+}
+
+article {
+  display: flex;
+}
+
+aside {
+  width: 30%;
+  border: 1px solid black;
+  border-top: none;
+}
+
+aside div {
+  padding: 20px 6px;
+}
+
+aside .bottom {
+  border-top: 1px solid black;
+}
+
+.right-section {
+  width: 70%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.right-section .top {
+  display: flex;
+}
+
+.right-section .top .left {
+  width: 60%;
+  text-align: center;
+  padding: 18px 6px;
+}
+
+.right-section .top .right {
+  width: 40%;
+padding : 20px 6px;
+border-left : 1px solid black;
+
+}
+
+img {
+  width: 200px;
+}
+
+.right-section .bottom {
+    padding : 20px 6px;
+    border-top : 1px solid black;
+}
