@@ -53,6 +53,11 @@ h1 {
   padding: 12px 0;
 }
 
+.nav-link:hover {
+   cursor : pointer ;
+   color : #666;
+}
+
 .top,
 .bottom {
   height: 45vh;
